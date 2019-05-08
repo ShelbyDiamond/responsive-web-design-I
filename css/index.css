@@ -168,7 +168,6 @@ footer {
     body {
         width: 700px;
         margin: 0 auto;
-        background: blue;
     }
     Header {
         display: flex;
@@ -188,5 +187,38 @@ footer {
 	.leftHead {
 		display: block;
 		margin: 0px auto;
+	}
+}
+@media(max-width: 500px) {
+    body {
+        width: 400px;
+        margin: 0 auto;
+		background: blue;
+	}
+	header nav {
+		width: 100%;
+	}
+	header nav a {
+		margin: 0;
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid grey;
+		padding: 20px 0;
+		width: 100%;
+	}
+	header nav:first-child {
+		border-top: 1px solid grey;	}
+	.T-swizzle, .B-swizzle {
+		width: 100%;
+		display: block;
+	}
+	.Features, .About {
+		width: 100%;
+	}
+	.middle-img {
+		margin-bottom: 5px;
+	}
+	.Service, .Product, .Vision {
+		width: 100%;
 	}
 }
