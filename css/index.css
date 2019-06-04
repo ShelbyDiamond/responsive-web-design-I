@@ -1,223 +1,251 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	background: white;
-	Width: 950px;
-	margin: 0 auto;
+  background: white;
+  width: 950px;
+  margin: 0 auto;
 }
 header {
-	margin-bottom: 20px;
-	display: flex;
+  margin-bottom: 20px;
+  display: flex;
 }
 header nav a {
-	margin: 0 65px 0 0;
-	color: lightgray;
-	text-decoration: none;
+  margin: 0 65px 0 0;
+  color: lightgray;
+  text-decoration: none;
 }
 .services-header-img {
-	width: 100%;
+  width: 100%;
 }
-.s-Services h1{
-	color: black;
-	font-size: 30px;
+.s-Services h1 {
+  color: black;
+  font-size: 30px;
 }
 .s-Services {
-    width: 100%;
-	color: black;
-	border-bottom: 1px solid black;
-	padding-bottom: 30px;
-	margin-bottom: 40px;
-	margin-top: 30px;
+  width: 100%;
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .allDaBoxes {
-	display: flex;
-	flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 .digitalDesign {
-	border: 1px solid black;
-	padding: 30px;
-	width: 433px;
-	margin: 21px;
-	background: lightgray;
+  border: 1px solid black;
+  padding: 30px;
+  width: 433px;
+  margin: 21px;
+  background: lightgray;
 }
 .digitalDesign a {
-	Border: 1px solid black;
-	background: white;
-	padding: 5px 25px;
-	text-decoration: none;
-	color: black;
-	border-radius: 5px;
+  border: 1px solid black;
+  background: white;
+  padding: 5px 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
 }
-.digitalDesign p{
-	padding-bottom: 35px;
+.digitalDesign p {
+  padding-bottom: 35px;
 }
 .imdone {
-	color: black;
-	border-top: 2px solid black;
-	padding-top: 30px;
+  color: black;
+  border-top: 2px solid black;
+  padding-top: 30px;
 }
 .everything {
-	border-top: 2px solid black;
-	margin: 5px; 
-	padding: 35px 0;
-	display: flex;
+  border-top: 2px solid black;
+  margin: 5px;
+  padding: 35px 0;
+  display: flex;
 }
-.facts, .services-info-img {
-	width: 450px;
+.facts,
+.services-info-img {
+  width: 450px;
 }
 .facts {
-	margin: 30px;
+  margin: 30px;
 }
 .facts p {
-	padding-bottom: 30px;
-	width: 410px;
+  padding-bottom: 30px;
+  width: 410px;
 }
-ul { 
-	list-style: square;
-	line-height: 30px;
-	margin-left: 15px;
+ul {
+  list-style: square;
+  line-height: 30px;
+  margin-left: 15px;
 }
 footer {
-    color: black;
-    display: block;
-    margin: 40px auto;
-	text-align: center;
+  color: black;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
 }
 .head {
-	display: flex;
-	padding-bottom: 40px;
+  display: flex;
+  padding-bottom: 40px;
 }
 .leftHead h1 {
-	color: black;
-	font-size: 80px;
-	text-align: center;
+  color: black;
+  font-size: 80px;
+  text-align: center;
 }
 .leftHead {
-	margin: 50px 200px 0 50px;
+  margin: 50px 200px 0 50px;
 }
 .leftHead a {
-	padding: 5px 37px;
-	border: 2px solid black;
-	color: black;
-	text-decoration: none;
-	position: relative;
-	left: 90px
+  padding: 5px 37px;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  left: 90px;
 }
 .head {
-	border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
-.T-swizzle, .B-swizzle {
-	display: flex;
+.T-swizzle,
+.B-swizzle {
+  display: flex;
 }
-.Features, .About {
-    width: 49%;
-    color: black;
-	margin-bottom: 40px;
-	margin-top: 30px;
+.Features,
+.About {
+  width: 49%;
+  color: black;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .middle-img {
-	width: 100%;
-	margin-bottom: 35px;
+  width: 100%;
+  margin-bottom: 35px;
 }
-.Services, .Product, .Vision {
-    width: 33%;
-    color: black;
-	margin-bottom: 40px;
-	margin-top: 30px;
+.Services,
+.Product,
+.Vision {
+  width: 33%;
+  color: black;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
-@media(max-width: 800px) {
-    body {
-        width: 700px;
-        margin: 0 auto;
-    }
-    Header {
-        display: flex;
-        flex-flow: column-reverse nowrap;
-        align-items: center;
-	}
-	.logo {
-        width: 200px;
-		padding-bottom: 25px;
-	}
-    header nav a {
-        margin: 30px;
-    }
-    .head img {
-        display: none;
-	}
-	.leftHead {
-		display: block;
-		margin: 0px auto;
-	}
+@media (max-width: 800px) {
+  body {
+    width: 700px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+  }
+  .logo {
+    width: 200px;
+    padding-bottom: 25px;
+  }
+  header nav a {
+    margin: 30px;
+  }
+  .head img {
+    display: none;
+  }
+  .leftHead {
+    display: block;
+    margin: 0px auto;
+  }
 }
-@media(max-width: 500px) {
-    body {
-        width: 400px;
-        margin: 0 auto;
-	}
-	header nav {
-		width: 100%;
-	}
-	header nav a {
-		margin: 0;
-		display: block;
-		text-align: center;
-		border-bottom: 1px solid darkgrey;
-		padding: 20px 0;
-		width: 100%;
-	}
-	header nav:first-child {
-		border-top: 1px solid darkgrey;	}
-	.T-swizzle, .B-swizzle {
-		width: 100%;
-		display: block;
-	}
-	.Features, .About {
-		width: 100%;
-	}
-	.middle-img {
-		margin-bottom: 5px;
-	}
-	.Service, .Product, .Vision {
-		width: 100%;
-	}
+@media (max-width: 500px) {
+  body {
+    width: 400px;
+    margin: 0 auto;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav a {
+    margin: 0;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+    padding: 20px 0;
+    width: 100%;
+  }
+  header nav:first-child {
+    border-top: 1px solid darkgrey;
+  }
+  .T-swizzle,
+  .B-swizzle {
+    width: 100%;
+    display: block;
+  }
+  .Features,
+  .About {
+    width: 100%;
+  }
+  .middle-img {
+    margin-bottom: 5px;
+  }
+  .Services,
+  .Product,
+  .Vision {
+    width: 100%;
+  }
 }
